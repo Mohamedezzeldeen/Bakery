@@ -1,0 +1,522 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body , html {
+    scroll-behavior: smooth;
+}
+
+.home
+{
+    background-image: url("../image/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+
+.home .spider
+{
+    position: fixed;
+    top: 28%;
+    right: 0;
+    width: 40px;
+    height: 10px;
+}
+
+
+.home .spider img
+{
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+.home .nav .containe
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home .nav 
+{
+    background-color: #403d38;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+
+.home .nav .containe .logo
+{
+    float: left;
+    width: 14%;
+}
+
+.home .nav .containe .logo img
+{
+    width: 100%;
+}
+
+
+
+
+.home .nav .containe .nav-right
+{
+    float: right;
+    padding: 15px 0px;
+}
+
+.home .nav .containe .nav-right ul
+{
+    list-style: none;
+}
+
+
+.home .nav .containe .nav-right ul li
+{
+    display: inline-block;
+}
+
+
+.home .nav .containe .nav-right ul li a
+{
+    text-decoration: none ;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+.home .home-content
+{
+    margin: 0 auto;
+    margin-top: 18%;
+    text-align: center;
+    color: white;
+}
+
+
+.home .home-content h1
+{
+    padding: 10px 0;
+    font-size: 70px;
+}
+
+.home .home-content p
+{
+    line-height: 2.3rem;
+    padding-bottom: 35px;
+    font-size: 25px;
+}
+
+.home .home-content button
+{
+    padding: 20px 23px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.btn-1
+{
+    margin-right: 10px;
+    background-color: rgb(146, 101, 43);
+    border: none;
+}
+
+.btn-2
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+
+.container
+{
+    width: 80%;
+    margin: 90px auto;
+    overflow: auto;
+}
+
+
+
+
+.container .section .right-side img
+{
+    width: 7%;
+    border: 1px rgba(0, 0, 0, 0.264) solid;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+
+.container .section .left-side img
+{
+    width: 100%;
+}
+
+
+.container .section .left-side
+{
+    width: 48%;
+    float: left;
+    min-width: 330px;
+}
+
+.container .section .right-side
+{
+    width: 46%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.container .section .right-side div
+{
+    overflow: auto;
+}
+
+
+.container .section .right-side div p
+{
+    margin-top: 2%;
+    margin-bottom: 5.8%;
+}
+
+
+
+.container .section .right-side h2
+{
+    font-size: 35px;
+}
+
+
+
+
+.height
+{
+    line-height: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+
+.clear-fix
+{
+    clear: both;
+}
+
+
+
+
+
+.float
+{
+    float: left;
+}
+
+
+
+.section-two , .section-four
+{
+    background-color: #f8f8f8;
+}
+
+
+.section-two .container .right img
+{
+    width: 100%;
+}
+
+.section-two .container .right
+{
+    width: 46%;
+    float: right;
+}
+
+.section-two .container .left
+{
+    float: left;
+    width: 40%;
+    min-width: 400px;
+}
+
+.section-two .container .left h2
+{
+    margin-top: 15%;
+    margin-bottom: 6%;
+}
+
+
+.section-two .container .left p
+{
+    line-height: 1.8rem;
+    padding-bottom: 15px;
+}
+
+
+.section-two .container ,
+.section-four .container 
+
+{
+    padding: 90px 0;
+    
+}
+
+
+
+.container .section-three
+{
+    text-align: center;
+    overflow: auto;
+}
+
+
+.container .section-three .three
+{
+    float: left;
+}
+
+.container .section-three h2
+{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.container .section-three div
+{
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    min-width: 300px;
+}
+
+
+.container .section-three .one , 
+.container .section-three .two  
+{
+    margin-right: 5%;
+}
+
+
+
+
+
+.container .section-three div h2
+{
+    margin-bottom: 15px;
+}
+
+.container .section-three div p
+{
+    line-height: 1.8rem;
+}
+
+.container .section-three div img
+{
+    width: 100%;
+}
+
+
+.section-four .container
+{
+    overflow: auto;
+}
+
+
+.section-four .container .left-side-2 img
+{
+    width: 8%;
+    border-radius: 50%;
+    background-color: #8e7754;
+    float: left;
+}
+
+.section-four .container .left-side-2
+{
+    width: 40%;
+    float: left;
+    line-height: 1.8rem;
+}
+
+
+.section-four .container .left-side-2 h2
+{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+
+
+.section-four .container .left-side-2 p
+{
+    font-size: 17px;
+    padding-bottom: 45px;
+}
+
+
+.float-p
+{
+    float: left;
+    margin-left: 2%;
+}
+
+
+.section-four .container .right-side-2 img
+{
+    width: 100%;
+    background-color: #8e7754;
+}
+
+
+.section-four .container .right-side-2
+{
+    width: 47%;
+    float: right;
+    min-width: 400px;
+}
+
+
+
+.section-five
+{
+    background-color: #403d38;
+    color: white;
+}
+
+
+.section-five .container
+{
+    margin-bottom: 0px;
+}
+
+
+.section-five .container .menu
+{
+    
+    width: 22%;
+    padding: 60px 0;
+    float: left;
+    margin-left: 2.5%;
+    min-width: 160px;
+}
+
+
+.section-five .container .menu h3
+{
+    padding-bottom: 35px;
+}
+
+.section-five .container .menu p
+{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+
+.section-five .container .menu img
+{
+    width: 7%;
+    float: left;
+    padding-top: 10px;
+}
+
+
+.height-2
+{
+    line-height: 1.9em;
+}
+
+
+.section-five .container .menu img.w-14
+{
+    width: 14%;
+}
+
+
+.section-five .container .menu#detail
+{
+    background: url(../image/contact-details-map.png) no-repeat;
+    background-position: 29% 58%;
+}
+
+
+.footer
+{
+    background-color: #353330;
+    color: wheat;
+}
+
+.footer .container
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footer .container .footer-img img
+{
+    width: 100%;
+}
+
+
+.footer .container .footer-img
+{
+    width: 30%;
+    margin: 60px auto 20px;
+}
+
+.footer .container .social-media
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.footer .container .social-media img
+{
+    width: 3%;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
